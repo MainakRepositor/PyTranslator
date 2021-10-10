@@ -1,12 +1,12 @@
 from tkinter import *
 import tkinter as tk
 from tkinter import ttk
-from PIL import ImageTk, Image      #pip install pillow
-from googletrans import Translator  #pip install googletrans==3.1.0a0
+from PIL import ImageTk, Image      
+from googletrans import Translator  
 from tkinter import messagebox
 
 root = tk.Tk()
-root.title('Langauge Translator')
+root.title('TransLator')
 root.geometry('530x330')
 root.maxsize(530,330)
 root.minsize(530,330)
