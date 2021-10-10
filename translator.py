@@ -32,7 +32,7 @@ def clear():
 
 
 img = ImageTk.PhotoImage(Image.open('translator.png'))
-label = Label(image=img)
+label = Label(image=img) 
 label.place(x=230,y=3)
 
 
